@@ -1,0 +1,88 @@
+*{
+    padding : 0px;
+    margin : 0px;
+    text-align: center;
+}
+body{
+    background-image: url("game_bg.jpeg");
+    background-size: cover;
+}
+p{
+    color:#fff;
+}
+h1{
+    background-color: rgb(21, 7, 50);
+    color:#fff;
+    height : 5rem;
+    line-height : 5rem;
+}
+.choices{
+    height: 200px;
+}
+.choice{
+    height : 170px;
+    width : 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.choice:hover{
+      border-radius : 50%;
+      cursor: pointer;
+      border : 5px solid rgb(250, 36, 36);
+      background-color: pink;
+    
+      /* #3c096c */
+}
+img{
+    height : 165px;
+    width : 165px;
+    border-radius : 50%;
+    object-fit: cover;
+}
+.choices{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    gap : 3rem;
+    margin-top : 5rem;
+}
+.score-board{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top : 5rem;
+    gap : 3rem;
+}
+#user-score, 
+#comp-score{
+    font-size: 4rem;
+    font-weight: 500;
+    margin-top : 2rem;
+}
+.user-choice, .comp-choice {
+    width: 40vh;
+    height : 20vh;
+    margin : 1rem 3rem 1rem 3rem;
+    background-color: rgb(28, 5, 209);
+    border-radius: 2rem;
+    border: 1px solid yellow;
+}
+.msg-container{
+    margin-top : 3rem;
+}
+#msg{
+    background-color: #3c096c;
+    color:#fff;
+    height :5rem;
+    font-size: 2rem;
+     display : inline;
+     padding : 1rem;
+     border-radius: 2rem;
+     border: 1px solid yellow;
+}
+.score{
+    display: flex;
+}
